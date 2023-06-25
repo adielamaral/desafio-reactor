@@ -9,7 +9,7 @@ public class Question3 {
     (para esse desafio vamos considerar que o usário é valido quando ele tem uma senha com mais de 8 caractéres)
      */
     public Mono<Void> userIsValid(final User user) {
-        if (user.password().length() <= 8) {
+        if (user.password().length() > 8) {
             return Mono.empty();
         } else {
             return Mono.error(new Exception());

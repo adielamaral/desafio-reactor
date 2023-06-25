@@ -13,10 +13,10 @@ public class Main {
         System.out.println();
 
         User user1 = new User(1L, "Adiel Amaral", "adiel@gmail.com", "123456", true);
-        User user2 = new User(2L, "Jhennyffer Kossmann", "jheny@hotmail.com", "jheny@15", false);
+        User user2 = new User(2L, "Jhennyffer Kossmann", "jheny@hotmail.com", "151515", false);
         User user3 = new User(3L, "Wemila Yasmin", "wemila@gmail.com", "654321", true);
-        User user4 = new User(4L, "Felipe Rodrigues", "felipe@yahoo.com.br", "felipinho123", false);
-        User user5 = new User(5L, "Yago dos Anjos", "yago@gmail.com", "yaguinho000", true);
+        User user4 = new User(4L, "Felipe Rodrigues", "felipe@yahoo.com.br", "654321", false);
+        User user5 = new User(5L, "Yago dos Anjos", "yago@gmail.com", "000000000", true);
 
         System.out.println("Question 2:");
         Question2 question2 = new Question2();
